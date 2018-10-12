@@ -23,7 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  arr = phone.scan(/[0-9]/)[
+  arr = phone.scan(/[0-9]/)
   if arr[9] == nil
     return false
   else
